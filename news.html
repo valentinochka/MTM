@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Солнечный Свет</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://allfont.ru/allfont.css?fonts=open-sans" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headermain">
+            <div class="dot"><img src="img/ico/world.png" alt=""><span>Новосибирск</span></div>
+            <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="lopi"><a href="" class="loopik"><img src="img/ico/loop.png" alt=""></a></div>
+        </div>
+        <nav class="center-nav">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="news.html">Новости компании</a>
+            <a href="certificate.html">Сертификаты</a>
+            <a href="order.html">Как сделать заказ</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+        <script>
+            window.addEventListener('scroll', function () {
+                var header = document.querySelector('header');
+                var scrollPosition = window.scrollY;
+                if (scrollPosition > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        </script>
+    </header>
+    <div class="main">
+        <div class="main_photo">
+            <img src="img/2.jpg">
+        </div>
+    </div>
+    <div class="news">
+        <div class="bg">
+            <div class="header_text">Новости компании, акции и распродажи</div>
+            <div class="wapper_news">
+                <div class="main_news">
+                    <div class="news_images"><img src="img/IMG_9885.JPG" alt=""></div>
+                    <div class="main_block-text">
+                        <div class="main_header-text">НОВИНКА</div>
+                        <div class="main_text_2">Армейское мыло для волос и тела:</div>
+                        <div class="main_footer-text">16.05.2023</div>
+                    </div>
+                </div>
+            <hr class="hr-news">
+            </div>
+            <div class="wapper_news">
+                <div class="main_news">
+                    <div class="news_images"><img src="img/700-nw.jpg" alt=""></div>
+                    <div class="main_block-text">
+                        <div class="main_header-text">Летняя распродажа -12%!!! *</div>
+                        <div class="main_text_2">парфюмерные, антистресс, с шиммером, с игрушками/с кремом</div>
+                        <div class="main_footer-text">10.05.2023</div>
+                    </div>
+                </div>
+            <hr class="hr-news">
+            </div>
+            <div class="wapper_news">
+                <div class="main_news">
+                    <div class="news_images"><img src="img/graw.jpg" alt=""></div>
+                    <div class="main_block-text">
+                        <div class="main_header-text">График работы в апреле-мае:</div>
+                        <div class="main_text_2">
+                            <p class="news_p"> 29, 30 апреля, 1 мая - выходные дни</p>
+                            <p class="news_p"> 6, 7, 8, 9 мая - выходные дни</p>
+                        </div>
+                        <div class="main_footer-text">16.04.2023</div>
+                    </div>
+                </div>
+            <hr class="hr-news">
+            </div>
+            <div class="wapper_news">
+                <div class="main_news">
+                    <div class="news_images"><img src="img/solt-pink.jpg" style="width: 550px; height: 400px;" alt=""></div>
+                    <div class="main_block-text">
+                        <div class="main_header-text">весенняя распродажа -12%!!!</div>
+                        <div class="main_text_2">Расширен ассортимент жемчужной соли:</div>
+                        <div class="main_footer-text">03.04.2023</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3492a1660636ef6634b3d14edb471b70778a396901ef260e36deb61eaff57a39&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <foooter class="footer">
+        <hr class="hr-line">
+        <div class="row__footer-up">
+            <ul class="footer__list">
+                <li class="footer__list-item"><a href="index.html">Главная</a></li>
+                <li class="footer__list-item"><a href="catalog.html">Каталог</a></li>
+                <li class="footer__list-item"><a href="news.html">Новости компании</a></li>
+                <li class="footer__list-item"><a href="certificate.html">Сертификаты</a></li>
+                <li class="footer__list-item"><a href="order.html">Как сделать заказ</a></li>
+                <li class="footer__list-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="footer__logo">
+                <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__list-item">Контакты</li>
+                <li class="footer__list-item">Новосибирск, ул. Мира-62</li>
+                <li class="footer__list-item">Тел.: 8(800)500-3608</li>
+                <li class="footer__list-item">E-mail: mtm-kosmetik@yandex.ru</li>
+            </ul>
+        </div>
+    </foooter>
+</body>
+</html>
